@@ -1,0 +1,27 @@
+body{
+    background-color: #B8E3F5; 
+    color:darkblue;
+}
+
+header{
+    background-color: aqua;
+}
+
+p{
+    font-size: 20pt;
+}
+
+#eslogan{
+    color: black;
+    font-size: 30pt;
+}
+
+/* Clase de identifica con punto */
+.parrafo{
+    background-color: rgb(233, 233, 220);
+}
+
+#servicios article img{
+    width: 300px;
+    height: 300px;
+}
