@@ -6,30 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huella Urbana</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Knewave&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <img src="img/logo.png" alt="Logo de Huella Urbana">
         <nav>
             <ul>
-                <li><a href="#inicio">Inicio</a></li> <!-- Sección Inicio -->
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#planes">Planes</a></li>
-                <li><a href="#paseadores">Paseadores</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio" class="boton">Inicio</a></li> <!-- Sección Inicio -->
+                <li><a href="#servicios" class="boton">Servicios</a></li>
+                <li><a href="#planes" class="boton">Planes</a></li>
+                <li><a href="#paseadores" class="boton">Paseadores</a></li>
+                <li><a href="#contacto" class="boton">Contacto</a></li>
             </ul>
         </nav>    
     </header>
+
 <main>
 
     <section id="inicio"> <!-- Sección Inicio. Id es unico -->
-        <h1 class="parrafo">Huella Urbana</h1> <!-- titulo -->
+        <h1 id="titulo">Huella Urbana</h1> <!-- titulo -->
         <p id="eslogan">Paseos Seguros y Felices para tu Mascota, mientras tu cumples con tu Día</p> <!-- eslogan -->
-        <a href="#contacto">Agenda un Servicio de Paseo</a>
+        <a href="#contacto" class="boton">Agenda un Servicio de Paseo</a><br>
         <img src="img/principal.jpg" alt="Paseo de Mascotas">
     </section>
 
+    <section id="video">
+    <iframe width="707" height="356" src="https://www.youtube.com/embed/3GveEnHVZno" title="Mascotas adorables durante 20 minutos 🥺 La Vida Secreta de tus Mascotas |Dibujos Animados en Español" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
     <section id="servicios">
         <article>
             <img src="img/paseo-individual.jpg" alt="Paseo Individual">
@@ -93,7 +99,19 @@
             <p class="parrafo">Estudiante de veterinaria. Ideal para mascotas grandes</p>
         </article>
 
+    <section id="contacto">
+        <h2>Contactanos</h2>
+        <p>Escribenos y agenda el primer paseo para tu mascota</p>
+        <u>
+            <li><a href="mailto:contacto@huellaurbana.com">contacto@huellaurbana.com</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        </u>
     </section>
+    
     </main>
+    <footer>
+        <p>&copy; 2026 Huella Urbana. Todos los derechos reservados</p>
+        <p>Fotos:<a href="https://www.pexels.com/" target="_blank">Pexels</a></p>
+    </footer>
 </body>
 </html>

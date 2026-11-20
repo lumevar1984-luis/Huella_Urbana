@@ -1,27 +1,108 @@
+:root{
+    --verde: #09C846;
+    --naranja: #f68a2b;
+    --cielo: #d8d8f2;
+    --azul: #260fbc;
+    --blanco: #ffffff;       
+}
+
+
+
 body{
-    background-color: #B8E3F5; 
-    color:darkblue;
+    background-color: var(--cielo); 
+    /* background-image: url('/img/guarderia.jpg'); /* Imagen de Fondo */ 
+    color: var(--azul);
+    margin: auto;
 }
 
 header{
-    background-color: aqua;
+    background-color: darkcyan;
+    display: flexbox;
+    align-items: flex-end;
 }
 
-p{
+header img{
+    width: 300px;
+    height: 200px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18pt;
+}
+
+img{
+max-width: 100%;
+}
+
+#inicio{  /* Se llama id con # */
+    text-align: center;
+}
+
+#inicio img{
+    width: 500px;
+    height: 500px;
+}
+
+#titulo{
+    font-size: 4rem;
+}
+
+article{
+    background-color: var(--blanco);
+    padding: 20px 10px;
+    margin: 30px;
+    border: 2px solid var(--verde);
+    border-radius: 15px;
+}
+
+article img{
+    border-radius: 15px;
+    height: 500px;
+}
+
+.boton{
+    display: inline-block;
+    background-color: var(--naranja);
+    color: var(--azul);
+    padding: 2px 5px 2px 5px;
+    margin: 20px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18pt;
+}
+
+.boton:hover{
+    background-color: var(--cielo);
+    color: var(--verde);
+}
+
+h1,h2,h3{
+    color: var(--verde);
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
     font-size: 20pt;
 }
 
-#eslogan{
-    color: black;
-    font-size: 30pt;
-}
-
-/* Clase de identifica con punto */
-.parrafo{
-    background-color: rgb(233, 233, 220);
-}
-
 #servicios article img{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
 }
